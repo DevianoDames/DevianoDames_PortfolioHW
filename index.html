@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Deviano Dames Portfolio</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo-box"></div> <!-- Black box for the logo -->
+    <div class="header-content">
+      <h1>Hello, My name is Deviano Dames.</h1>
+      <p>Web & motion designer</p>
+      <button class="latest-works-btn">Latest Works</button>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="about-content">
+      <div class="about-me">
+        <img src="placeholder.jpg" alt="Deviano Dames">
+        <p>About me text goes here...</p>
+        <div class="social-links">
+          <a href="#" target="_blank"><img src="twitter-placeholder.png" alt="Twitter"></a>
+          <a href="#" target="_blank"><img src="instagram-placeholder.png" alt="Instagram"></a>
+          <a href="#" target="_blank"><img src="facebook-placeholder.png" alt="Facebook"></a>
+        </div>
+        <div class="link-buttons">
+          <a href="#" target="_blank">LinkedIn</a>
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <nav class="project-nav">
+      <ul>
+        <li><a href="#all-projects">ALL</a></li>
+        <li><a href="#3d-modeling">3D Modeling</a></li>
+        <li><a href="#web-design">Web Design</a></li>
+        <li><a href="#video-editing">Video Editing</a></li>
+      </ul>
+    </nav>
+    <div class="project-images">
+      <!-- Display your project images here -->
+      <!-- Use placeholder images or replace with actual project images -->
+      <img src="project-placeholder1.jpg" alt="Project 1">
+      <img src="project-placeholder2.jpg" alt="Project 2">
+      <img src="project-placeholder3.jpg" alt="Project 3">
+      <img src="project-placeholder4.jpg" alt="Project 4">
+      <img src="project-placeholder5.jpg" alt="Project 5">
+      <img src="project-placeholder6.jpg" alt="Project 6">
+    </div>
+  </section>
+
+  <section class="contact">
+    <button class="contact-btn">Contact</button>
+    <div class="contact-popup">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+      <button class="close-btn" onclick="document.querySelector('.contact-popup').style.display = 'none'">&times;</button>
+    </div>
+  </section>
+
+</body>
+</html>
